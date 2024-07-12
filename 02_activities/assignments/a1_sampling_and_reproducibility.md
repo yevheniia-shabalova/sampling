@@ -10,10 +10,42 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Yevheniia Shabalova
 
 ```
-Please write your explanation here...
+Event Attendance and Infection:
+
+Function Used: simulate_event
+Sample Size: 1000 individuals (200 attending weddings, 800 attending brunches)
+Sampling Frame: Population of event attendees
+Distribution: Uniform for event attendance; Bernoulli for infection
+Relation to Blog Post: Models uniform infection risk across events.
+Primary Contact Tracing:
+
+Function Used: simulate_event
+Sample Size: Proportion of infected individuals
+Sampling Frame: Infected individuals
+Distribution: Bernoulli with a 20% success rate
+Relation to Blog Post: Reflects limited success rate of initial contact tracing.
+Secondary Contact Tracing:
+
+Function Used: simulate_event
+Sample Size: Events with at least 2 traced individuals
+Sampling Frame: Events with primary traced individuals
+Distribution: Based on event attendance counts
+Relation to Blog Post: Highlights bias toward easily traceable events.
+
+Yes, the code reproduces the general shape and trends of the graphs from the original blog post, showing the overestimation of infection sources from weddings due to biased contact tracing.
+
+Running the script multiple times yields similar but not identical graphs, indicating some level of reproducibility but with increased noise due to the reduced number of simulations.
+
+Changes Made:
+
+Setting the random seed within the function simulate_event to ensure the random processes inside the function are also reproducible.
+
+Effect on Reproducibility:
+
+The output graphs are now consistent across multiple runs, producing the same results each time the script is executed. This ensures that the results are reproducible.
 
 ```
 
