@@ -16,30 +16,64 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand the reasons behind the high turnover rate among entry- and lower-level positions in the company and to identify potential changes that can improve employee satisfaction and retention.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: Employees who  left the company within the last 12 months, specifically those in entry- and lower-level positions.
+Sampling frame: List of former employees obtained from HR records, filtered to include only those who left within the past year from entry- and lower-level positions.
+Sampling units: Individual former employees.
+Overall sampling strategy: Stratified random sampling, ensuring representation across different departments and roles to identify patterns and specific issues related to turnover.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long were you employed at the company?
+
+Less than 6 months
+6-12 months
+1-2 years
+2-3 years
+More than 3 years
+
+2.What was your primary reason for leaving the company?
+
+Better job opportunity elsewhere
+Lack of career advancement
+Dissatisfaction with management
+Work-life balance issues
+Compensation and benefits
+Workplace culture
+Other (please specify)
+
+3. How satisfied were you with your job role and responsibilities?
+
+Very satisfied
+Satisfied
+Neutral
+Dissatisfied
+Very dissatisfied
+
+4. How would you describe your relationship with your immediate supervisor?
+
+Very positive
+Positive
+Neutral
+Negative
+Very negative
+
+5. Would you consider returning to the company if the identified issues were addressed?
+
+Yes
+No
+Maybe
+
 ```
 
 ## Rubric
